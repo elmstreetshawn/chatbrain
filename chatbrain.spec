@@ -1,4 +1,4 @@
-# contentbrain.spec
+# chatbrain.spec
 # -*- mode: python ; coding: utf-8 -*-
 
 import sys
@@ -100,7 +100,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='ContentBrain',
+    name='ChatBrain',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -119,16 +119,16 @@ exe = EXE(
 if sys.platform == 'darwin':
     app = BUNDLE(
         exe,
-        name='ContentBrain.app',
+        name='ChatBrain.app',
         icon='assets/icon.icns',
-        bundle_identifier='com.elmstreetshawn.contentbrain',
+        bundle_identifier='com.elmstreetshawn.chatbrain',
         info_plist={
-            'CFBundleName': 'ContentBrain',
-            'CFBundleDisplayName': 'ContentBrain',
+            'CFBundleName': 'ChatBrain',
+            'CFBundleDisplayName': 'ChatBrain',
             'CFBundleVersion': '1.0.0',
             'CFBundleShortVersionString': '1.0.0',
             'CFBundlePackageType': 'APPL',
-            'CFBundleExecutable': 'ContentBrain',
+            'CFBundleExecutable': 'ChatBrain',
             'NSHighResolutionCapable': True,
             'LSMinimumSystemVersion': '10.14.0',
             'NSRequiresAquaSystemAppearance': False,
