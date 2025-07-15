@@ -64,7 +64,7 @@ hidden_imports.extend(collect_submodules('transformers'))
 block_cipher = None
 
 a = Analysis(
-    ['semantic_chat_gui.py'],
+    ['chatbrain.py'],
     pathex=[],
     binaries=[],
     datas=[
