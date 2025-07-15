@@ -78,7 +78,6 @@ jobs:
           --onefile `
           --windowed `
           --name "ChatBrain" `
-          --icon="assets/icon.ico" `
           --add-data "README.md;." `
           --hidden-import="sentence_transformers" `
           --hidden-import="faiss" `
@@ -101,7 +100,6 @@ jobs:
           --onefile \
           --windowed \
           --name "ChatBrain" \
-          --icon="assets/icon.icns" \
           --add-data "README.md:." \
           --hidden-import="sentence_transformers" \
           --hidden-import="faiss" \
