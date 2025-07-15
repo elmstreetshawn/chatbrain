@@ -134,3 +134,4 @@ if sys.platform == 'darwin':
             'NSRequiresAquaSystemAppearance': False,
         }
     )
+
