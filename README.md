@@ -2,10 +2,10 @@
 Remember Everything. Cache Intelligently. Chat Offline.
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Local%20LLM-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Memory-Semantic%20Cache-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/chatbrain?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Privacy-100%25%20Offline-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/elmstreetshawn/semantic-chat-cache?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/elmstreetshawn/semantic-chat-cache?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/elmstreetshawn/chtbrain?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/elmstreetshawn/chatbrain?style=for-the-badge" />
 </p>
 <p align="center">
   <strong>The first AI chat system that actually remembers your conversations and learns from them.</strong><br>
@@ -22,28 +22,26 @@ Ever asked an AI the same question twice? Semantic Chat Cache solves this by:
 🎨 Beautiful GUI - Modern interface with real-time feedback
 🚀 Auto-Setup - Installs Ollama, downloads models, configures everything
 
-<p align="center">
-  <img src="demo.gif" alt="Semantic Chat Cache Demo" width="80%" />
-</p>
+
 
 🚀 Quick Start
 Windows
 
-Download SemanticChatCache-Windows.exe from Releases
+Download chatbrain-Windows.exe from Releases
 Double-click to run
 App auto-installs Ollama and downloads a model
 Start chatting! 🎉
 
 macOS
 
-Download SemanticChatCache-macOS.app from Releases
+Download chatbrain-macOS.app from Releases
 Right-click → "Open" (bypass security warning)
 Everything else is automatic ✨
 
 Linux
 
-Download SemanticChatCache-Linux from Releases
-chmod +x SemanticChatCache-Linux && ./SemanticChatCache-Linux
+Download chatbrain-Linux from Releases
+chmod +x chatbrain-Linux && ./chatbrain-Linux
 Ready to go! 🐧
 
 
