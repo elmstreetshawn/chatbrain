@@ -89,7 +89,7 @@ jobs:
           --collect-all="sentence_transformers" `
           --collect-all="transformers" `
           --collect-all="torch" `
-          semantic_chat_gui.py
+          chatbrain.py
         
         # Move and rename the executable
         move dist\ChatBrain.exe ChatBrain-Windows.exe
@@ -113,8 +113,8 @@ jobs:
           --collect-all="transformers" \
           --collect-all="torch" \
           --osx-bundle-identifier="com.elmstreetshawn.chatbrain" \
-          semantic_chat_gui.py
-        
+          chatbrain.py
+
         # Move and rename
         mv dist/ChatBrain ChatBrain-macOS
         chmod +x ChatBrain-macOS
@@ -136,8 +136,8 @@ jobs:
           --collect-all="sentence_transformers" \
           --collect-all="transformers" \
           --collect-all="torch" \
-          semantic_chat_gui.py
-        
+          chatbrain.py
+
         # Move and rename
         mv dist/ChatBrain ChatBrain-Linux
         chmod +x ChatBrain-Linux
