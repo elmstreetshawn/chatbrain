@@ -112,7 +112,6 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets/icon.ico' if sys.platform == 'win32' else 'assets/icon.icns',
 )
 
 # macOS app bundle
@@ -120,7 +119,6 @@ if sys.platform == 'darwin':
     app = BUNDLE(
         exe,
         name='ChatBrain.app',
-        icon='assets/icon.icns',
         bundle_identifier='com.elmstreetshawn.chatbrain',
         info_plist={
             'CFBundleName': 'ChatBrain',
@@ -134,4 +132,3 @@ if sys.platform == 'darwin':
             'NSRequiresAquaSystemAppearance': False,
         }
     )
-

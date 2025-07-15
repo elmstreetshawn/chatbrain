@@ -829,4 +829,7 @@ def main():
         messagebox.showerror("Error", f"Failed to start application: {str(e)}")
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--version":
+        print("ChatBrain v1.0.0")
+        sys.exit(0)
     main()
