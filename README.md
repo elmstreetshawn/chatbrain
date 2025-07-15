@@ -2,7 +2,6 @@
 Remember Everything. Cache Intelligently. Chat Offline.
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Local%20LLM-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/chatbrain?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Privacy-100%25%20Offline-orange?style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/elmstreetshawn/chtbrain?style=for-the-badge" />
   <img src="https://img.shields.io/github/license/elmstreetshawn/chatbrain?style=for-the-badge" />
